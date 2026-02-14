@@ -180,6 +180,8 @@ func resolvePkgPaths(p types.Type) ([]string, error) {
 			return []string{stripVendor(pkg.Path())}, nil
 		}
 	case *types.Basic:
+	case *types.Alias:
+		// TODO determine if the resolve deeper is necessary for the imported alias.
 	case *types.Interface:
 	case *types.Struct: // struct{}
 		// Break out of the switch and return below
