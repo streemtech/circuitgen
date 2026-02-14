@@ -179,9 +179,9 @@ func resolvePkgPaths(p types.Type) ([]string, error) {
 		if pkg := t.Obj().Pkg(); pkg != nil {
 			return []string{stripVendor(pkg.Path())}, nil
 		}
-	case *types.Basic:
 	case *types.Alias:
-		// TODO3 determine if the resolve deeper is necessary for the imported alias.
+		return resolvePkgPaths(t.Underlying())
+	case *types.Basic:
 	case *types.Interface:
 	case *types.Struct: // struct{}
 		// Break out of the switch and return below
