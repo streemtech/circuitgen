@@ -16,9 +16,9 @@ package circuitgentest
 import (
 	"context"
 
+	"github.com/streemtech/circuitgen/internal/circuitgentest/model"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/rep"
 	"github.com/stretchr/testify/mock"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/model"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/rep"
 )
 
 // TopicsList is a test struct

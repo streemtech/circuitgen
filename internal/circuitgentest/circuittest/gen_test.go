@@ -20,12 +20,12 @@ import (
 	"time"
 
 	"github.com/cep21/circuit"
+	"github.com/streemtech/circuitgen/internal/circuitgentest"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/model"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/rep"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/model"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/rep"
 )
 
 // Test generated clients

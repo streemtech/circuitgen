@@ -13,10 +13,12 @@ For example, DynamoDB responses that return ConditionalCheckedFailException (CCF
 ## Method Wrapping Requirements
 
 When deciding if making a circuit wrapper is right for your interface or struct, consider that methods will only be wrapped if:
-* The method accepts a context as the first argument
-* The method returns an error as the last value
+
+- The method accepts a context as the first argument
+- The method returns an error as the last value
 
 Example
+
 ```go
 type Publisher interface {
 	// Method is wrapped
@@ -29,7 +31,7 @@ type Publisher interface {
 # Installation
 
 ```bash
-go get github.com/twitchtv/circuitgen
+go get github.com/streemtech/circuitgen
 ```
 
 # Usage
@@ -266,7 +268,7 @@ Run `make test` to run Go tests.
 
 # License
 
-This library is licensed under the Apache 2.0 License. 
+This library is licensed under the Apache 2.0 License.
 
 # Contributing
 

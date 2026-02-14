@@ -6,7 +6,7 @@ import (
 	"context"
 
 	"github.com/cep21/circuit"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest"
+	"github.com/streemtech/circuitgen/internal/circuitgentest"
 )
 
 // CircuitWrapperAggregatorConfig contains configuration for CircuitWrapperAggregator. All fields are optional

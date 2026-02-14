@@ -4,9 +4,10 @@ package circuitgentest
 
 import (
 	"context"
+
 	"github.com/cep21/circuit/v3"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/model"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/rep"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/model"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/rep"
 )
 
 // CircuitWrapperPublisherCircuitV3Config contains configuration for CircuitWrapperPublisherCircuitV3. All fields are optional

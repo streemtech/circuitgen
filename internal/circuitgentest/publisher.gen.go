@@ -6,8 +6,8 @@ import (
 	"context"
 
 	"github.com/cep21/circuit"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/model"
-	"github.com/twitchtv/circuitgen/internal/circuitgentest/rep"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/model"
+	"github.com/streemtech/circuitgen/internal/circuitgentest/rep"
 )
 
 // CircuitWrapperPublisherConfig contains configuration for CircuitWrapperPublisher. All fields are optional

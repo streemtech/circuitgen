@@ -1,4 +1,4 @@
-module github.com/twitchtv/circuitgen
+module github.com/streemtech/circuitgen
 
 go 1.11
 
